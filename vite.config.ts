@@ -16,11 +16,11 @@ export default defineConfig(({ mode }) => ({
     componentTagger(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
+      includeAssets: ['./Etsal.jpg', 'robots.txt', './Etsal.jpg'],
       manifest: {
-        name: 'Golden Box Order Taker',
+        name: 'Itisal Order Taker',
         short_name: 'OrderHub',
-        description: 'Order management system for Golden Box',
+        description: 'Order management system for Itisal',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
@@ -68,7 +68,7 @@ export default defineConfig(({ mode }) => ({
             sizes: '1200x630',
             type: 'image/png',
             form_factor: 'wide',
-            label: 'Golden Box Order Taker Dashboard'
+            label: 'Itisal Order Taker Dashboard'
           }
         ]
       },

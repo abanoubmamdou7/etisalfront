@@ -154,7 +154,7 @@ const translations: Record<Language, Record<string, string>> = {
     'app.pwaInstallInstructions': 'Add to Home Screen',
     
     // Login page
-    'login.title': 'Login to Etisal',
+    'login.title': 'Login to Itisal',
     'login.usernamePlaceholder': 'Enter your username',
     'login.passwordPlaceholder': 'Enter your password',
     'login.button': 'Login',

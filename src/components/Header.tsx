@@ -66,8 +66,8 @@ const Header: React.FC<HeaderProps> = ({
           )}
           <div className="flex items-center gap-2">
             <img
-              src='./Etsal.jpg'
-              alt="Golden Box Logo"
+              src='../../Etsal.jpg'
+              alt="Irisal Logo"
               className="h-8 w-auto"
             />
             <h1 className={cn(

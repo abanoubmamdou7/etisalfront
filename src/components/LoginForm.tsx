@@ -61,8 +61,8 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
     <Card className="w-full max-w-md p-6">
       <div className="text-center mb-6">
         <img 
-          src="/public/Etsal.jpg" 
-          alt="Etisal Logo" 
+          src="/Etsal.jpg" 
+          alt="Itisal Logo" 
           className="h-12 w-auto mx-auto mb-4" 
         />
         <h1 className="text-2xl font-semibold mb-1">{t('login.title')}</h1>
