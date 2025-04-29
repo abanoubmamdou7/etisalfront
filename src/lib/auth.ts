@@ -29,27 +29,7 @@ export const logout = () => {
   localStorage.removeItem('isLoggedIn');
   localStorage.removeItem('user');
 };
-// export class UserCls{
-//   userName:string;
-//   password:string
-// }
-// export async function login(user:UserCls){
-//   //console.log(JSON.stringify({ places }));
-//   console.log({user})
-//   const response = await fetch("http://localhost:5000/auth/login",{
-//     method:"POST",
-//     body: JSON.stringify({ user }),
-//     headers: { 'Content-Type': 'application/json' },
-//   });
-//   const resData = await response.json();
-//   if (!response.ok) {
-// ;
-//     throw new Error(" Failed to Update UserData");
 
-//   }
-//   console.log(resData.message);
-//   return resData.message;
-// }
 export async function login(user: { userName: string; password: string }) {
   console.log({ user });
 
